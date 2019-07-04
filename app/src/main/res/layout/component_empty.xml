@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:layout_marginBottom="20dp"
+              android:background="#fff"
+              tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+            android:layout_marginTop="50dp"
+            android:id="@+id/image_error"
+            android:src="@drawable/empty"
+            android:contentDescription="@null"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+    />
+    <TextView
+            android:id="@+id/text_error"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/data_is_empty"
+            android:textSize="20sp"
+            android:textStyle="bold"
+    />
+    <Button
+            android:textColor="#3F51B5"
+            android:background="@android:color/transparent"
+            android:layout_marginTop="20dp"
+            android:id="@+id/open_damovie"
+            android:text="@string/add_favorite_movie"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>

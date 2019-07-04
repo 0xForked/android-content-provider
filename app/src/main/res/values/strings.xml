@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">favorite</string>
+    <string name="data_is_empty">Data is Empty</string>
+    <string name="add_favorite_movie">Add Favorite Movie</string>
+</resources>
